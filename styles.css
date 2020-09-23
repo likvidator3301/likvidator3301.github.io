@@ -1,0 +1,340 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainpage {
+    width: 100%;
+    height: 100%;
+}
+
+.bubble-inscription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+
+    transition-duration: 1s;
+}
+
+.bubble-inscription-opened {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+
+    position: absolute;
+    top: 40px;
+    left: 60px;
+
+    z-index: 2;
+
+    transition-duration: 1s;
+
+}
+
+.avatar {
+    position: absolute;
+    top: 7%;
+    left: 12%;
+    width: 200px;
+    height: 200px;
+    border: 7px solid #d5e9d0;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+.bubble {
+    position: absolute;
+    border: 7px solid #d5e9d0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition-duration: 1s;
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+}
+
+.bubble-opened {
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    border: 0 solid #d5e9d0;
+    z-index: 1;
+    transition-duration: 1s;
+    text-align: left;
+}
+
+.bubble-hided {
+    z-index: 0;
+}
+
+.career {
+    top: 5%;
+    left: 65%;
+
+    width: 153px;
+    height: 153px;
+}
+
+.career-opened {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.seminars {
+    top: 7%;
+    left: 80%;
+
+    width: 230px;
+    height: 230px;
+}
+
+.seminars-opened {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.education-work {
+    top: 47%;
+    left: 70%;
+
+    width: 300px;
+    height: 300px;
+}
+
+.education-work-opened {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.education {
+    top: 68%;
+    left: 50%;
+
+    width: 190px;
+    height: 190px;
+}
+
+.education-opened {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.close-bubble-arrow {
+    position: absolute;
+    padding: 0;
+    top: 46px;
+    left: 20px;
+    cursor: pointer;
+
+    transition-duration: .5s;
+}
+
+.close-bubble-arrow:hover {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.part-title-background {
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100px;
+
+    box-shadow: 0 5px 5px black;
+}
+
+.information-card-container {
+    position: absolute;
+
+    top: 20%;
+    left: 10%;
+
+    width: 75%;
+    height: 70%;
+}
+
+.information-card {
+    position: relative;
+
+    box-shadow: 0 0 10px #cedfe6;
+
+    margin-top: 5%;
+
+    min-height: 100px;
+
+    height: auto;
+}
+
+.left-information-card {
+    left: 10%;
+}
+
+.right-information-card {
+    left: 20%;
+}
+
+.card-title {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 0;
+    width: auto;
+}
+
+.card-title-left {
+    text-align: left;
+}
+
+.card-title-right {
+    text-align: right;
+}
+
+.size-40 {
+    font-size: 40px;
+}
+
+.size-35 {
+    font-size: 35px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.oswald {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wide {
+    width: 70%;
+}
+
+.narrow {
+    width: 40%;
+}
+
+.description {
+    position: relative;
+    line-height: 35px;
+
+    top: -30%;
+    left: -70%;
+
+    width: 35%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.avatar img {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.dark-blue {
+    background: #cedfe6;
+}
+
+.purple {
+    background: #e2d4e1;
+}
+
+.dirty-yellow {
+    background: #e9e4bc;
+}
+
+.pink {
+    background: #eed7dd;
+}
+
+.green {
+    background: #d5e9d0;
+}
+
+.violet {
+    background: #d0d2e9;
+}
+
+.dirty-orange {
+    background: #eed8cb;
+}
+
+.cyan {
+    background: #d2efea;
+}
+
+.decoy-1 {
+    position: absolute;
+
+    top: 20%;
+    left: 7%;
+
+    width: 256px;
+    height: 256px;
+}
+
+.decoy-2 {
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+
+    width: 256px;
+    height: 256px;
+
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+}
+
+.decoy {
+    position: absolute;
+}

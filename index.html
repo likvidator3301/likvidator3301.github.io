@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="arrows.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <script src="utils.js"></script>
+    <title>Исаков Анатолий</title>
+</head>
+<body>
+    <div class="mainpage dark-blue">
+        <img src="decoy_2.png" alt="decoy_2" class="decoy-2"/>
+        <img src="decoy_white.png" alt="decoy" class="round green decoy" style="width: 128px; height: 128px; top:83%; left: 10%"/>
+        <img src="decoy_white.png" alt="decoy" class="round dirty-orange decoy" style="width: 90px; height: 90px; top:60%; left: 40%"/>
+        <img src="decoy_white.png" alt="decoy" class="round violet decoy" style="width: 90px; height: 90px; top:40%; left: 10%"/>
+        <img src="decoy_white.png" alt="decoy" class="round pink decoy" style="width: 150px; height: 150px; top:44%; left: 65%"/>
+        <img src="decoy_white.png" alt="decoy" class="round green decoy" style="width: 200px; height: 200px; top:15%; left: 37%"/>
+        <div class="main">
+
+            <div class="avatar">
+                <img src="avatar.jpg" class="round" alt="Аватар" hidden/>
+                <div class="description raleway size-35">
+                    Привет! Здесь описание меня, как чего-то там. Ага, все очень понятно тут должно быть
+                </div>
+            </div>
+
+            <div class="bubble career dirty-orange" onclick="bubbleOnClick(this)">
+                <span class="bubble-inscription">Карьера</span>
+                <div class="content" hidden>
+                    <div class="close-bubble-arrow left-rotate arrow" onclick="closeBubbleArrowOnClick()"></div>
+                    <div class="part-title-background violet"></div>
+                    <div class="information-card-container">
+                        <div class="information-card left-information-card wide dark-blue">
+                            <div class="card-title card-title-left size-40 oswald">СКБ Контур</div>
+                            <div class="card-title card-title-left size-20 oswald">DevOps, Backend-разработчик</div>
+                            <p class="card-title card-title-left size-20 raleway">Контур занимается разработкой продуктов для бизнеса. Наши решения позволяют сотням тысяч бизнесменов в нескольких странах упростить взаимодействие с государственными контролирующими органами</p>
+                            <p class="card-title card-title-left size-20 raleway">Я занимаюсь инфраструктурными веб-сервисами - сервисами, которые помогают командам разработки эффективнее организовывать внутренние и внешние процессы и автоматизировать рутинные процессы</p>
+                            <p class="card-title card-title-left size-20 raleway">Если что-то можно сделать без участия человека - наши руки обязательно до этого доберутся!</p>
+                            <div class="card-title card-title-right size-35 oswald">Июль 2019-...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bubble education dirty-yellow" onclick="bubbleOnClick(this)">
+                <div class="content" hidden>
+                    <div class="close-bubble-arrow left-rotate arrow" onclick="closeBubbleArrowOnClick()"></div>
+                    <div class="part-title-background"></div>
+                    <div class="information-card-container">
+                        <div class="information-card right-information-card narrow">
+                            <div class="card-title card-title-left size-40 oswald">Матмех</div>
+                            <p class="card-title card-title-left size-20 raleway">Вместе с командой образовательных программ Контура я несколько лет помогаю студентам вникнуть в </p>
+                        </div>
+                    </div>
+                </div>
+                <span class="bubble-inscription">Образование</span>
+            </div>
+            <div class="bubble education-work cyan" onclick="bubbleOnClick(this)">
+                <div class="content" hidden>
+                    <div class="close-bubble-arrow left-rotate arrow" onclick="closeBubbleArrowOnClick()"></div>
+                    <div class="part-title-background"></div>
+                    <div class="information-card-container">
+                        <div class="information-card right-information-card narrow">
+                            <div class="card-title card-title-left size-40 oswald">Менторская программа</div>
+                            <p class="card-title card-title-left size-20 raleway">Вместе с командой образовательных программ Контура я несколько лет помогаю студентам вникнуть в </p>
+                        </div>
+                    </div>
+                </div>
+                <span class="bubble-inscription">Образовательная деятельность</span>
+            </div>
+            <div class="bubble seminars pink" onclick="bubbleOnClick(this)">
+                <span class="bubble-inscription">Про семинары</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
